@@ -32,10 +32,6 @@ S = list()
 for i in range(5):
     S.append(slice_generate())
 
-# input
-PHY
-S
-# G, K{SFC}
 
 # ILP
 problem = pulp.LpProblem(name="graph-maaping", sense=LpMaximize)
